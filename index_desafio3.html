@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            * /* Reset */
+            {
+                margin: 0;
+                padding: 0;
+                border: 0;
+            }
+
+            /* España */
+            .flag__spain
+            {
+                display: flex;
+                flex-direction: column;
+
+                width: 300px;
+                height: 150px;
+
+                margin: 32px;
+
+                border: 2px solid #000000;
+            }
+
+            .flag__spain-red
+            {
+                height: 25%;
+                background-color: red;
+            }
+
+            .flag__spain-yellow
+            {
+                height: 50%;
+                background-color: yellow;
+            }
+
+            /* Dinamarca */
+            .flag__denmark-column
+            {
+                width: 300px;
+                height: 150px;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                border: 2px solid #000000;
+
+                margin: 32px;
+
+                background-color: white;
+            }
+
+            .flag__denmark-row
+            {
+                width: 300;
+                height: 60px;
+
+                display: flex;
+                flex-direction: row;
+            }
+
+            .flag__denmark-red-start
+            {
+                width: 20%;
+                background-color: red;
+            }
+
+            .flag__denmark-white
+            {
+                width: 10%;
+                background-color: white;
+            }
+
+            .flag__denmark-red-end
+            {
+                width: 70%;
+                background-color: red;
+            }
+
+            /* Emiratos arabes */
+            .flag__earab
+            {
+                width: 300px;
+                height: 150px;
+
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+
+                border: 2px solid #000000;
+
+                margin: 32px;
+
+                background-color: red;
+            }
+
+            .flag__earab-green
+            {
+                width: 75%;
+                height: 33.33333%;
+                background-color: green;
+            }
+
+            .flag__earab-white
+            {
+                width: 75%;
+                height: 33.33333%;
+                background-color: white;
+            }
+
+            .flag__earab-black
+            {
+                width: 75%;
+                height: 33.33333%;
+                background-color: black;
+            }
+
+            /* Japon */
+            .flag__jap
+            {
+                width: 300px;
+                height: 150px;
+
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+
+                border: 2px solid #000000;
+
+                margin: 32px;
+
+                background-color: white;
+            }
+
+            .flag__jap-circle
+            {
+                width: 72px;
+                height: 72px;
+                border-radius: 50%;
+                background-color: red;
+            }
+        </style>
+        <title>Desafio 3</title>
+    </head>
+    <body>
+        <section class="mainbox">
+            <!-- España -->
+            <div class="flag__spain">
+                <div class="flag__spain-red"></div>
+                <div class="flag__spain-yellow"></div>
+                <div class="flag__spain-red"></div>
+            </div>
+            <!-- Dinamarca -->
+            <div class="flag__denmark-column">
+                <div class="flag__denmark-row">
+                    <div class="flag__denmark-red-start"></div>
+                    <div class="flag__denmark-white"></div>
+                    <div class="flag__denmark-red-end"></div>
+                </div>
+                <div class="flag__denmark-row">
+                    <div class="flag__denmark-red-start"></div>
+                    <div class="flag__denmark-white"></div>
+                    <div class="flag__denmark-red-end"></div>
+                </div>
+            </div>
+            <!-- Emiratos arabes -->
+            <div class="flag__earab">
+                <div class="flag__earab-green"></div>
+                <div class="flag__earab-white"></div>
+                <div class="flag__earab-black"></div>
+            </div>
+            <!-- japon -->
+            <div class="flag__jap">
+                <div class="flag__jap-circle"></div>
+            </div>
+        </section>
+    </body>
+</html>
